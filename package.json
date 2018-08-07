@@ -15,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/Asaf-Aviv/react-infinite-scroll-filter/issues"
   },
-  "homepage": "https://github.com/Asaf-Aviv/react-infinite-scroll-filter#readme",
   "dependencies": {
     "express": "^4.16.3"
   }

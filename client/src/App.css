@@ -16,6 +16,18 @@ body {
   padding: 0 1rem;
 }
 
+.code {
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 5;
+}
+
+.code img {
+  width: 48px;
+}
+
 .shadow {
   -webkit-box-shadow: 0px 2px 6px 1px #9a9a9a;
   box-shadow: 0px 2px 6px 1px #9a9a9a;

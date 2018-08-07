@@ -3,6 +3,7 @@ import UsersList from './components/UsersList/UsersList'
 import Filters from './components/Filters/Filters'
 import throttle from 'lodash.throttle'
 
+import codeIcon from './code.svg'
 import './App.css'
 
 export default class App extends Component {
@@ -48,6 +49,10 @@ export default class App extends Component {
     }
   }
 
+  handleClick = () => {
+
+  }
+
   filterByGender = filteredGender => {
     this.setState({ filteredGender })
   }
@@ -59,6 +64,11 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="code">
+          <a target="_blank" href="https://github.com/Asaf-Aviv/React-infinite-scroll" title="view code on github">
+            <img ocClick={this.handleClick} src={codeIcon} alt="code"/>
+          </a>
+        </div>
         <div className="container">
           <Filters filterByGender={this.filterByGender} filterByUsername={this.filterByUsername} />
           <UsersList {...this.state} />

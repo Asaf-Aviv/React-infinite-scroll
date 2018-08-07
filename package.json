@@ -1,0 +1,22 @@
+{
+  "name": "sort-scroll-filter",
+  "version": "1.0.0",
+  "description": "Simple infinite scrolling and filering using react",
+  "main": "server.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asaf-Aviv/react-infinite-scroll-filter.git"
+  },
+  "author": "Asaf Aviv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Asaf-Aviv/react-infinite-scroll-filter/issues"
+  },
+  "homepage": "https://github.com/Asaf-Aviv/react-infinite-scroll-filter#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

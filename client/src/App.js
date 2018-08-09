@@ -49,10 +49,6 @@ export default class App extends Component {
     }
   }
 
-  handleClick = () => {
-
-  }
-
   filterByGender = filteredGender => {
     this.setState({ filteredGender })
   }
@@ -66,7 +62,7 @@ export default class App extends Component {
       <div className="App">
         <div className="code">
           <a target="_blank" href="https://github.com/Asaf-Aviv/React-infinite-scroll" title="view code on github">
-            <img ocClick={this.handleClick} src={codeIcon} alt="code"/>
+            <img src={codeIcon} alt="code"/>
           </a>
         </div>
         <div className="container">

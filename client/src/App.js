@@ -61,7 +61,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <div className="code">
-          <a target="_blank" href="https://github.com/Asaf-Aviv/React-infinite-scroll" title="view code on github">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Asaf-Aviv/React-infinite-scroll" title="view code on github">
             <img src={codeIcon} alt="code"/>
           </a>
         </div>

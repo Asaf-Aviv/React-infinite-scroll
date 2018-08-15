@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const UserCard = ({ user, display }) => (
-  <div className={`user-card shadow silent-border ${display ? 'show' : 'hide'}`}>
+  <div className={`user-card shadow ${display ? 'show' : 'hide'}`}>
     <div className="user-image">
       <img src={user.picture.large} alt={`${user.login.username} thumbnail`} />
     </div>
@@ -22,7 +22,8 @@ const UserCard = ({ user, display }) => (
 )
 
 UserCard.propTypes = {
-  user: PropTypes.object.isRequired
+  user: PropTypes.object.isRequired,
+  display: PropTypes.bool.isRequired
 }
 
 export default UserCard

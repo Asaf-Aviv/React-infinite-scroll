@@ -33,7 +33,7 @@ export default class Filters extends Component {
     document.querySelector('.search-input > input').focus()
   }
 
-  handleBlur = e => {
+  handleBlur = () => {
     const searchInput = document.querySelector('.search-input > input')
     searchInput.style.width = searchInput.value.length ? '250px' : '0';
   }
@@ -52,7 +52,7 @@ export default class Filters extends Component {
 
   render() {
     return (
-      <div className="filter-wrapper shadow silent-border">
+      <div className="filter-wrapper shadow">
         <div className="radio-inputs">
           {createRadioInput('gender', 'all', this.setGenderValue, this.state.checkedValue)}
           {createRadioInput('gender', 'male', this.setGenderValue, this.state.checkedValue)}

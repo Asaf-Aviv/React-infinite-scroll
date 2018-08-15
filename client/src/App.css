@@ -22,7 +22,6 @@ body {
   top: 10%;
   right: 30px;
   z-index: 5;
-  -webkit-transform: translateZ(0);
 }
 
 .code img {
